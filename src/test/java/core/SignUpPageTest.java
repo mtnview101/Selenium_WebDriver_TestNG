@@ -14,7 +14,7 @@ public class SignUpPageTest {
 	String todays_day = "timestamp"; 
 	String os_browser = "os_browser";
 	*/
-/*  @Test
+  @Test
   public void test_01_verify_content_quotes() throws IOException {
 	  boolean status=false;
 	  String quote = SignUpPage.verify_content("id_quotes");
@@ -35,7 +35,7 @@ public class SignUpPageTest {
   public void test_04_verify_content_date() throws IOException {
 	  String todays_day = SignUpPage.verify_content("timestamp");
 	  System.out.println(todays_day);
-	  Assert.assertEquals(todays_day, "February 9, 2017 ");} */
+	  Assert.assertEquals(todays_day, "February 9, 2017 ");} 
 
   @Test
   public void test_05_verify_content_os() throws IOException {
