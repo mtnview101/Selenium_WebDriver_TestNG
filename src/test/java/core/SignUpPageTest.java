@@ -34,13 +34,11 @@ public class SignUpPageTest {
   @Test
   public void test_04_verify_content_date() throws IOException {
 	  String todays_day = SignUpPage.verify_content("timestamp");
-	  System.out.println(todays_day);
 	  Assert.assertEquals(todays_day, "February 9, 2017 ");} 
 
   @Test
   public void test_05_verify_content_os() throws IOException {
 	  String os_browser = SignUpPage.verify_content("os_browser");
-	  System.out.println(os_browser);
 	  Assert.assertEquals(os_browser, "Windows 10 & Chrome");}  
   
 }
