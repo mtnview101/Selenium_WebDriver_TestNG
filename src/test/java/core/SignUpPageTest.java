@@ -6,14 +6,6 @@ import org.testng.annotations.Test;
 
 public class SignUpPageTest {
 	
-/* 
-	String quote = "id_quotes";
-	String temperature = "id_temperature"; 64 ℉
-	String current_city = "id_current_location"; San Francisco, CA
-	String copyright = "copyright"; 
-	String todays_day = "timestamp"; 
-	String os_browser = "os_browser";
-	*/
   @Test
   public void test_01_verify_content_quotes() throws IOException {
 	  boolean status=false;
@@ -40,7 +32,7 @@ public class SignUpPageTest {
   public void test_05_verify_content_os() throws IOException {
 	  String os_browser = SignUpPage.verify_content("os_browser");
 	  Assert.assertEquals(os_browser, "Windows 10 & Chrome");}  
- ////////////////////////////////////////////////////////////////////// 
+
   @Test
   public void test_07_verify_link_facebook() throws IOException, InterruptedException {
 	  String id_img_facebook = SignUpPage.verify_link("id_img_facebook");
