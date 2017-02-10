@@ -18,24 +18,9 @@ import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.safari.SafariOptions;
 
 public class ConfirmationPage {
-public static void main(String[] args) throws IOException, InterruptedException {
-		
-String in_browser = "Edge"; // "HtmlUnit" "Firefox" "Chrome"  "Safari"  "IE"  "Edge"
-Browser.setWebDriver(in_browser);
+	
+public void verify_conirmation (String first_name, String last_name, String email, String phone){
+	
+}
 
-final long start = System.currentTimeMillis(); // start time for test
-
-final long finish = System.currentTimeMillis();  // final time for test
-
-
-
-String url = "http://alex.academy/ua"; // environment verification by user agent
-Browser.driver.get(url);
-String ua = Browser.driver.findElement(By.id("id_ua")).getText();
-System.out.println("User Agent: \t " + ua);
-System.out.println("Response time: \t " + (finish - start) + " milliseconds:");
-if (Browser.driver != null)
-{Browser.driver.quit();}
-        
-	}
 }

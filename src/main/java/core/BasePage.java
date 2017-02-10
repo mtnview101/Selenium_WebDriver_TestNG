@@ -18,24 +18,19 @@ import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.safari.SafariOptions;
 
 public class BasePage {
-public static void main(String[] args) throws IOException, InterruptedException {
-		
-String in_browser = "Chrome"; // "HtmlUnit" "Firefox" "Chrome"  "Safari"  "IE"  "Edge"
-Browser.setWebDriver(in_browser);
+	static String in_browser = "Edge"; // "HtmlUnit" "Firefox" "Chrome"  "Safari"  "IE"  "Edge"
 
-final long start = System.currentTimeMillis(); // start time for test
+	static String url = "http://alex.academy/exercises/signup/v1/";
+	static String title_sign_up_expected = "Welcome to Sign Up";
+	static String title_facebook_expected = "Welcome to Facebook - Log In, Sign Up or Learn More";
+	static String error_fname_empty_expected = "Please enter First Name";
+	static String fname = "Dmitry";
+	static String lname = "Nakhabtsev";
+	static String email = "dima@gmail.com";
+	static String phone = "315 212-8506";
+	
+public void verify_page_application_title (String SignUp_page, String Confirmation_page){
+	
+}
 
-final long finish = System.currentTimeMillis();  // final time for test
-
-
-
-String url = "http://alex.academy/ua"; // environment verification by user agent
-Browser.driver.get(url);
-String ua = Browser.driver.findElement(By.id("id_ua")).getText();
-System.out.println("User Agent: \t " + ua);
-System.out.println("Response time: \t " + (finish - start) + " milliseconds:");
-if (Browser.driver != null)
-{Browser.driver.quit();}
-        
-	}
 }
