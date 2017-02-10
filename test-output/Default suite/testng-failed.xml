@@ -5,7 +5,7 @@
     <classes>
       <class name="core.SignUpPageTest">
         <methods>
-          <include name="test_01_verify_content_quotes"/>
+          <include name="test_05_verify_content_os"/>
         </methods>
       </class> <!-- core.SignUpPageTest -->
     </classes>
