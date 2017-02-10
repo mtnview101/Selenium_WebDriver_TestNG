@@ -40,5 +40,38 @@ public class SignUpPageTest {
   public void test_05_verify_content_os() throws IOException {
 	  String os_browser = SignUpPage.verify_content("os_browser");
 	  Assert.assertEquals(os_browser, "Windows 10 & Chrome");}  
+ ////////////////////////////////////////////////////////////////////// 
+  @Test
+  public void test_07_verify_link_facebook() throws IOException, InterruptedException {
+	  String id_img_facebook = SignUpPage.verify_link("id_img_facebook");
+	  Assert.assertEquals(id_img_facebook, "Welcome to Facebook - Log In, Sign Up or Learn More");}
+  
+  @Test
+  public void test_08_verify_link_twitter() throws IOException, InterruptedException {
+	  String id_img_twitter = SignUpPage.verify_link("id_img_twitter");
+	  Assert.assertEquals(id_img_twitter, "Twitter");} 
+  
+  @Test
+  public void test_09_verify_link_flick() throws IOException, InterruptedException {
+	  String id_img_flickr = SignUpPage.verify_link("id_img_flickr");
+	  Assert.assertEquals(id_img_flickr, "Find your inspiration. | Flickr");} 
+
+  @Test
+  public void test_10_verify_link_youtube() throws IOException, InterruptedException {
+	  String id_img_youtube = SignUpPage.verify_link("id_img_youtube");
+	  Assert.assertEquals(id_img_youtube, "YouTube");}   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
 }
