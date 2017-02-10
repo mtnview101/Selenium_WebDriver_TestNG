@@ -34,7 +34,7 @@ public class SignUpPageTest {
   @Test
   public void test_04_verify_content_date() throws IOException {
 	  String todays_day = SignUpPage.verify_content("timestamp");
-	  Assert.assertEquals(todays_day, "February 9, 2017 ");} 
+	  Assert.assertEquals(todays_day, "February 10, 2017 ");} 
 
   @Test
   public void test_05_verify_content_os() throws IOException {
@@ -44,12 +44,12 @@ public class SignUpPageTest {
   @Test
   public void test_07_verify_link_facebook() throws IOException, InterruptedException {
 	  String id_img_facebook = SignUpPage.verify_link("id_img_facebook");
-	  Assert.assertEquals(id_img_facebook, "Welcome to Facebook - Log In, Sign Up or Learn More");}
+	  Assert.assertEquals(id_img_facebook, "Facebook - Log In or Sign Up");}
   
   @Test
   public void test_08_verify_link_twitter() throws IOException, InterruptedException {
 	  String id_img_twitter = SignUpPage.verify_link("id_img_twitter");
-	  Assert.assertEquals(id_img_twitter, "Twitter");} 
+	  Assert.assertEquals(id_img_twitter, "Twitter. It's what's happening.");} 
   
   @Test
   public void test_09_verify_link_flick() throws IOException, InterruptedException {

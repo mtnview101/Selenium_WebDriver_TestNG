@@ -5,7 +5,9 @@
     <classes>
       <class name="core.SignUpPageTest">
         <methods>
-          <include name="test_10_verify_link_youtube"/>
+          <include name="test_04_verify_content_date"/>
+          <include name="test_08_verify_link_twitter"/>
+          <include name="test_07_verify_link_facebook"/>
         </methods>
       </class> <!-- core.SignUpPageTest -->
     </classes>
