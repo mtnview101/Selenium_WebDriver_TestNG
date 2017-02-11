@@ -61,31 +61,31 @@ public class SignUpPageTest {
 	  String id_img_youtube = SignUpPage.verify_link("id_img_youtube");
 	  Assert.assertEquals(id_img_youtube, "YouTube");}  
 
-@Test
-public void test_12_verify_error_handling_face_first_name() throws IOException, InterruptedException {
-	  String id_fname = SignUpPage.verify_error_handling("id_fname");
-	  Assert.assertEquals(id_fname, "Please enter First Name");}
-
-@Test
-public void test_13_verify_error_handling_face_last_name() throws IOException, InterruptedException {
-	  Browser.driver.findElement(By.id("id_fname")).sendKeys(BasePage.fname);
-	  String id_lname = SignUpPage.verify_error_handling("id_lname");
-	  Assert.assertEquals(id_lname, "Please enter Last Name");} 
-
-@Test
-public void test_14_verify_error_handling_email() throws IOException, InterruptedException {
-	  Browser.driver.findElement(By.id("id_fname")).sendKeys(BasePage.fname);
-	  Browser.driver.findElement(By.id("id_lname")).sendKeys(BasePage.lname);
-	  String id_email = SignUpPage.verify_error_handling("id_email");
-	  Assert.assertEquals(id_email, "Please enter Email Address");} 
-
-@Test
-public void test_15_verify_error_handling_phone_number() throws IOException, InterruptedException {
-	  Browser.driver.findElement(By.id("id_fname")).sendKeys(BasePage.fname);
-	  Browser.driver.findElement(By.id("id_lname")).sendKeys(BasePage.lname);
-	  Browser.driver.findElement(By.id("id_email")).sendKeys(BasePage.email);
-	  String id_phone = SignUpPage.verify_error_handling("id_phone");
-	  Assert.assertEquals(id_phone, "Please enter Phone Number");} 
+  @Test
+  public void test_12_verify_error_handling_face_first_name() throws IOException, InterruptedException {
+		  String id_fname = SignUpPage.verify_error_handling("id_fname");
+		  Assert.assertEquals(id_fname, "Please enter First Name");}
+	
+  @Test
+  public void test_13_verify_error_handling_face_last_name() throws IOException, InterruptedException {
+		  Browser.driver.findElement(By.id("id_fname")).sendKeys(BasePage.fname);
+		  String id_lname = SignUpPage.verify_error_handling("id_lname");
+		  Assert.assertEquals(id_lname, "Please enter Last Name");} 
+	
+  @Test
+  public void test_14_verify_error_handling_email() throws IOException, InterruptedException {
+		  Browser.driver.findElement(By.id("id_fname")).sendKeys(BasePage.fname);
+		  Browser.driver.findElement(By.id("id_lname")).sendKeys(BasePage.lname);
+		  String id_email = SignUpPage.verify_error_handling("id_email");
+		  Assert.assertEquals(id_email, "Please enter Email Address");} 
+	
+  @Test
+  public void test_15_verify_error_handling_phone_number() throws IOException, InterruptedException {
+		  Browser.driver.findElement(By.id("id_fname")).sendKeys(BasePage.fname);
+		  Browser.driver.findElement(By.id("id_lname")).sendKeys(BasePage.lname);
+		  Browser.driver.findElement(By.id("id_email")).sendKeys(BasePage.email);
+		  String id_phone = SignUpPage.verify_error_handling("id_phone");
+		  Assert.assertEquals(id_phone, "Please enter Phone Number");} 
 
   
   
