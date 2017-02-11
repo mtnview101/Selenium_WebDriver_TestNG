@@ -1,117 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="75458" started-at="2017-02-11T01:38:06Z" finished-at="2017-02-11T01:39:22Z">
+  <suite name="Default suite" duration-ms="97002" started-at="2017-02-11T08:29:49Z" finished-at="2017-02-11T08:31:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="75458" started-at="2017-02-11T01:38:06Z" finished-at="2017-02-11T01:39:22Z">
-      <class name="core.SignUpPageTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="2484" started-at="2017-02-10T17:38:06Z" finished-at="2017-02-10T17:38:09Z">
+    <test name="Default test" duration-ms="97002" started-at="2017-02-11T08:29:49Z" finished-at="2017-02-11T08:31:26Z">
+      <class name="core.SignUpTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="7267" started-at="2017-02-11T00:29:49Z" finished-at="2017-02-11T00:29:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_01_verify_content_quotes()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="test_01_verify_content_quotes" duration-ms="3021" started-at="2017-02-10T17:38:09Z" finished-at="2017-02-10T17:38:12Z">
+        <test-method status="PASS" signature="test_01_verify_content_quotes()[pri:0, instance:core.SignUpTest@3fee9989]" name="test_01_verify_content_quotes" duration-ms="3063" started-at="2017-02-11T00:29:56Z" finished-at="2017-02-11T00:29:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01_verify_content_quotes -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="1721" started-at="2017-02-10T17:38:12Z" finished-at="2017-02-10T17:38:14Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="1737" started-at="2017-02-11T00:29:59Z" finished-at="2017-02-11T00:30:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_02_verify_content_current_city()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="test_02_verify_content_current_city" duration-ms="2800" started-at="2017-02-10T17:38:14Z" finished-at="2017-02-10T17:38:16Z">
+        <test-method status="PASS" signature="test_02_verify_content_current_city()[pri:0, instance:core.SignUpTest@3fee9989]" name="test_02_verify_content_current_city" duration-ms="2847" started-at="2017-02-11T00:30:01Z" finished-at="2017-02-11T00:30:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_02_verify_content_current_city -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="1709" started-at="2017-02-10T17:38:16Z" finished-at="2017-02-10T17:38:18Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="1755" started-at="2017-02-11T00:30:04Z" finished-at="2017-02-11T00:30:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_03_verify_content_current_weather()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="test_03_verify_content_current_weather" duration-ms="2789" started-at="2017-02-10T17:38:18Z" finished-at="2017-02-10T17:38:21Z">
+        <test-method status="PASS" signature="test_03_verify_content_current_weather()[pri:0, instance:core.SignUpTest@3fee9989]" name="test_03_verify_content_current_weather" duration-ms="2845" started-at="2017-02-11T00:30:05Z" finished-at="2017-02-11T00:30:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_03_verify_content_current_weather -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="1573" started-at="2017-02-10T17:38:21Z" finished-at="2017-02-10T17:38:22Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="1699" started-at="2017-02-11T00:30:08Z" finished-at="2017-02-11T00:30:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_04_verify_content_date()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="test_04_verify_content_date" duration-ms="2791" started-at="2017-02-10T17:38:22Z" finished-at="2017-02-10T17:38:25Z">
+        <test-method status="PASS" signature="test_04_verify_content_date()[pri:0, instance:core.SignUpTest@3fee9989]" name="test_04_verify_content_date" duration-ms="2849" started-at="2017-02-11T00:30:10Z" finished-at="2017-02-11T00:30:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_04_verify_content_date -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="1705" started-at="2017-02-10T17:38:25Z" finished-at="2017-02-10T17:38:27Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="1754" started-at="2017-02-11T00:30:13Z" finished-at="2017-02-11T00:30:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_05_verify_content_os()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="test_05_verify_content_os" duration-ms="2793" started-at="2017-02-10T17:38:27Z" finished-at="2017-02-10T17:38:30Z">
+        <test-method status="PASS" signature="test_05_verify_content_os()[pri:0, instance:core.SignUpTest@3fee9989]" name="test_05_verify_content_os" duration-ms="2842" started-at="2017-02-11T00:30:15Z" finished-at="2017-02-11T00:30:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_05_verify_content_os -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="1702" started-at="2017-02-10T17:38:30Z" finished-at="2017-02-10T17:38:31Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="2181" started-at="2017-02-11T00:30:17Z" finished-at="2017-02-11T00:30:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_07_verify_link_facebook()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="test_07_verify_link_facebook" duration-ms="6684" started-at="2017-02-10T17:38:31Z" finished-at="2017-02-10T17:38:38Z">
+        <test-method status="PASS" signature="test_07_verify_link_facebook()[pri:0, instance:core.SignUpTest@3fee9989]" name="test_07_verify_link_facebook" duration-ms="7220" started-at="2017-02-11T00:30:20Z" finished-at="2017-02-11T00:30:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_07_verify_link_facebook -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="1590" started-at="2017-02-10T17:38:38Z" finished-at="2017-02-10T17:38:40Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="1668" started-at="2017-02-11T00:30:27Z" finished-at="2017-02-11T00:30:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_08_verify_link_twitter()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="test_08_verify_link_twitter" duration-ms="6802" started-at="2017-02-10T17:38:40Z" finished-at="2017-02-10T17:38:46Z">
+        <test-method status="PASS" signature="test_08_verify_link_twitter()[pri:0, instance:core.SignUpTest@3fee9989]" name="test_08_verify_link_twitter" duration-ms="7478" started-at="2017-02-11T00:30:28Z" finished-at="2017-02-11T00:30:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_08_verify_link_twitter -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="1691" started-at="2017-02-10T17:38:46Z" finished-at="2017-02-10T17:38:48Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="1693" started-at="2017-02-11T00:30:36Z" finished-at="2017-02-11T00:30:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_09_verify_link_flick()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="test_09_verify_link_flick" duration-ms="6762" started-at="2017-02-10T17:38:48Z" finished-at="2017-02-10T17:38:55Z">
+        <test-method status="PASS" signature="test_09_verify_link_flick()[pri:0, instance:core.SignUpTest@3fee9989]" name="test_09_verify_link_flick" duration-ms="6894" started-at="2017-02-11T00:30:38Z" finished-at="2017-02-11T00:30:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_09_verify_link_flick -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="1705" started-at="2017-02-10T17:38:55Z" finished-at="2017-02-10T17:38:57Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="1644" started-at="2017-02-11T00:30:44Z" finished-at="2017-02-11T00:30:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_10_verify_link_youtube()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="test_10_verify_link_youtube" duration-ms="6843" started-at="2017-02-10T17:38:57Z" finished-at="2017-02-10T17:39:03Z">
+        <test-method status="PASS" signature="test_10_verify_link_youtube()[pri:0, instance:core.SignUpTest@3fee9989]" name="test_10_verify_link_youtube" duration-ms="7136" started-at="2017-02-11T00:30:46Z" finished-at="2017-02-11T00:30:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_10_verify_link_youtube -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="1718" started-at="2017-02-10T17:39:03Z" finished-at="2017-02-10T17:39:05Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="1672" started-at="2017-02-11T00:30:53Z" finished-at="2017-02-11T00:30:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_12_verify_error_handling_face_first_name()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="test_12_verify_error_handling_face_first_name" duration-ms="2813" started-at="2017-02-10T17:39:05Z" finished-at="2017-02-10T17:39:08Z">
+        <test-method status="PASS" signature="test_11_verify_submit_form()[pri:0, instance:core.SignUpTest@3fee9989]" name="test_11_verify_submit_form" duration-ms="5039" started-at="2017-02-11T00:30:55Z" finished-at="2017-02-11T00:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_11_verify_submit_form -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="1885" started-at="2017-02-11T00:31:00Z" finished-at="2017-02-11T00:31:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test_12_verify_error_handling_face_first_name()[pri:0, instance:core.SignUpTest@3fee9989]" name="test_12_verify_error_handling_face_first_name" duration-ms="2864" started-at="2017-02-11T00:31:02Z" finished-at="2017-02-11T00:31:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_12_verify_error_handling_face_first_name -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="1698" started-at="2017-02-10T17:39:08Z" finished-at="2017-02-10T17:39:10Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="1666" started-at="2017-02-11T00:31:05Z" finished-at="2017-02-11T00:31:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_13_verify_error_handling_face_last_name()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="test_13_verify_error_handling_face_last_name" duration-ms="2849" started-at="2017-02-10T17:39:10Z" finished-at="2017-02-10T17:39:13Z">
+        <test-method status="PASS" signature="test_13_verify_error_handling_face_last_name()[pri:0, instance:core.SignUpTest@3fee9989]" name="test_13_verify_error_handling_face_last_name" duration-ms="2902" started-at="2017-02-11T00:31:06Z" finished-at="2017-02-11T00:31:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_13_verify_error_handling_face_last_name -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="1689" started-at="2017-02-10T17:39:13Z" finished-at="2017-02-10T17:39:14Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="2112" started-at="2017-02-11T00:31:09Z" finished-at="2017-02-11T00:31:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_14_verify_error_handling_email()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="test_14_verify_error_handling_email" duration-ms="2877" started-at="2017-02-10T17:39:14Z" finished-at="2017-02-10T17:39:17Z">
+        <test-method status="PASS" signature="test_14_verify_error_handling_email()[pri:0, instance:core.SignUpTest@3fee9989]" name="test_14_verify_error_handling_email" duration-ms="2920" started-at="2017-02-11T00:31:11Z" finished-at="2017-02-11T00:31:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_14_verify_error_handling_email -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="1689" started-at="2017-02-10T17:39:17Z" finished-at="2017-02-10T17:39:19Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="1683" started-at="2017-02-11T00:31:14Z" finished-at="2017-02-11T00:31:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_15_verify_error_handling_phone_number()[pri:0, instance:core.SignUpPageTest@3fee9989]" name="test_15_verify_error_handling_phone_number" duration-ms="2908" started-at="2017-02-10T17:39:19Z" finished-at="2017-02-10T17:39:22Z">
+        <test-method status="PASS" signature="test_15_verify_error_handling_phone_number()[pri:0, instance:core.SignUpTest@3fee9989]" name="test_15_verify_error_handling_phone_number" duration-ms="2968" started-at="2017-02-11T00:31:16Z" finished-at="2017-02-11T00:31:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_15_verify_error_handling_phone_number -->
-      </class> <!-- core.SignUpPageTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:core.SignUpTest@3fee9989]" name="beforeMethod" is-config="true" duration-ms="1654" started-at="2017-02-11T00:31:19Z" finished-at="2017-02-11T00:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test_16_verify_confirmation_page()[pri:0, instance:core.SignUpTest@3fee9989]" name="test_16_verify_confirmation_page" duration-ms="5011" started-at="2017-02-11T00:31:21Z" finished-at="2017-02-11T00:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_16_verify_confirmation_page -->
+      </class> <!-- core.SignUpTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -27,10 +27,22 @@ public class BasePage {
 	static String fname = "Dmitry";
 	static String lname = "Nakhabtsev";
 	static String email = "dima@gmail.com";
-	static String phone = "315 212-8506";
+	static String phone = "315-212-8506";
+	static String gender = "Male";
+	static String state = "California";
+	static String agrement = "Agreed";
 	
-public void verify_page_application_title (String SignUp_page, String Confirmation_page){
-	
-}
+	public static String verify_page_application_title (String content) throws IOException{
+		String content_test = Browsers.driver.findElement(By.id(content)).getText();			
+		if (Browsers.driver != null) {Browsers.driver.quit();}
+		return content_test;} // verify_page_application_title  END	
+
+
+
+
+
+
+
+
 
 }

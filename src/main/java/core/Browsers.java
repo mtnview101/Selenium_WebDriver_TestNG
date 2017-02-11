@@ -17,7 +17,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.safari.SafariOptions;
 
-public class Browser {
+public class Browsers {
 	static WebDriver driver;
 
 	public static void setWebDriver(String browser) throws IOException {
